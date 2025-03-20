@@ -106,8 +106,7 @@ export default function Home() {
                 Web Apps
               </TabsTrigger>
             </TabsList>
-
-            {/* Conteúdo das Abas com Efeito de Surgimento */}
+            
             <FadeInWhenVisible>
               <TabsContent value="websites" className="mt-6">
                 <Card className="border-white shadow-lg hover:shadow-xl transition-shadow">
