@@ -1,5 +1,4 @@
 "use client";
-import {DollarSign} from "lucide-react"
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaQuestionCircle, FaRocket, FaSpinner } from "react-icons/fa";

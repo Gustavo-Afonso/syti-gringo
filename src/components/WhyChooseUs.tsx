@@ -31,7 +31,7 @@ export default function WhyChooseUs() {
               <CardContent className="p-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
                   <div className="rounded-full bg-gradient-to-r from-red-500 to-red-950 p-4">
-                    <DollarSign className="h-8 w-8 text-green-500" />
+                    <DollarSign className="h-8 w-8 text-white" />
                   </div>
                   <h3 className="text-xl font-bold bg-red-500 bg-clip-text text-transparent">
                     Cost Effective
@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
               <CardContent className="p-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
                   <div className="rounded-full bg-gradient-to-r from-red-500 to-red-950 p-4">
-                    <Star className="h-8 w-8 text-yellow-500" />
+                    <Star className="h-8 w-8 text-whati" />
                   </div>
                   <h3 className="text-xl font-bold bg-red-500 bg-clip-text text-transparent">
                     Premium Quality
@@ -67,7 +67,7 @@ export default function WhyChooseUs() {
               <CardContent className="p-6">
                 <div className="flex flex-col items-center space-y-4 text-center">
                   <div className="rounded-full bg-gradient-to-r from-red-500 to-red-950 p-4">
-                    <MessageSquare className="h-8 w-8 text-blue-500" />
+                    <MessageSquare className="h-8 w-8 text-white" />
                   </div>
                   <h3 className="text-xl font-bold bg-red-500 bg-clip-text text-transparent">
                     Fluent Communication

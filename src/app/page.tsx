@@ -1,11 +1,11 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { BoxReveal } from "@/components/magicui/box-reveal";
-import TypingAnimation from '../components/TypingEffect';
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Check, ChevronRight, DollarSign, Globe, Mail, MessageSquare, Phone, Star } from "lucide-react"
+import { Check,  Phone, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -107,6 +107,7 @@ export default function Home() {
               </TabsTrigger>
             </TabsList>
             
+            {/* Conteúdo das Abas com Efeito de Surgimento */}
             <FadeInWhenVisible>
               <TabsContent value="websites" className="mt-6">
                 <Card className="border-white shadow-lg hover:shadow-xl transition-shadow">
@@ -120,19 +121,19 @@ export default function Home() {
                         </p>
                         <ul className="mt-4 grid gap-2">
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Responsive design for all devices</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">SEO optimization</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Content management system</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Analytics integration</span>
                           </li>
                         </ul>
@@ -163,19 +164,19 @@ export default function Home() {
                         </p>
                         <ul className="mt-4 grid gap-2">
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Secure payment processing</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Inventory management</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Customer accounts</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Marketing tools integration</span>
                           </li>
                         </ul>
@@ -206,19 +207,19 @@ export default function Home() {
                         </p>
                         <ul className="mt-4 grid gap-2">
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">User authentication</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Database integration</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">API development</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <Check className="h-4 w-4 text-blue-600" />
+                            <Check className="h-4 w-4 text-red-500" />
                             <span className="text-gray-700 dark:text-gray-200">Third-party integrations</span>
                           </li>
                         </ul>
@@ -307,19 +308,19 @@ export default function Home() {
                   <p className="text-gray-600 dark:text-gray-300">For a standard business website</p>
                   <ul className="mt-4 grid gap-2 text-left">
                     <li className="flex items-center gap-2">
-                      <Check className="h-4 w-4 text-blue-600" />
+                      <Check className="h-4 w-4 text-white" />
                       <span className="text-gray-700 dark:text-gray-200">Custom design</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Check className="h-4 w-4 text-blue-600" />
+                      <Check className="h-4 w-4 text-white" />
                       <span className="text-gray-700 dark:text-gray-200">Responsive development</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Check className="h-4 w-4 text-blue-600" />
+                      <Check className="h-4 w-4 text-white" />
                       <span className="text-gray-700 dark:text-gray-200">Content management system</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <Check className="h-4 w-4 text-blue-600" />
+                      <Check className="h-4 w-4 text-white" />
                       <span className="text-gray-700 dark:text-gray-200">SEO optimization</span>
                     </li>
                   </ul>
@@ -394,7 +395,7 @@ export default function Home() {
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Our US Clients Say</h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Don't just take our word for it. Hear from our satisfied clients across the United States.
+            Don&apos;t just take our word for it. Hear from our satisfied clients across the United States.
           </p>
         </div>
       </div>
@@ -434,7 +435,7 @@ export default function Home() {
                       <Star key={i} className="h-5 w-5 fill text-primary" />
                     ))}
                 </div>
-                <p className="text-muted-foreground">"{testimonial.quote}"</p>
+                <p className="text-muted-foreground">&quot;{testimonial.quote}&quot;</p>
                 <div className="flex items-center gap-4 pt-4">
                   <div className="rounded-full bg-muted p-1">
                     <div className="h-10 w-10 rounded-full bg-muted-foreground/20"></div>
@@ -468,7 +469,7 @@ export default function Home() {
       </BoxReveal>
       <BoxReveal duration={1}>
         <p className="text-base sm:text-lg md:text-xl mb-4 sm:mb-5 text-center">
-          In addition to developing modern and customized websites, we also offer complete digital solutions to optimize your processes and boost your online presence. Whether it's creating an e-commerce site, a custom system, or an online platform, we are ready to turn your idea into reality<span className="text-lg text-red-400">.</span>
+          In addition to developing modern and customized websites, we also offer complete digital solutions to optimize your processes and boost your online presence. Whether it&apos;s creating an e-commerce site, a custom system, or an online platform, we are ready to turn your idea into reality<span className="text-lg text-red-400">.</span>
         </p>
       </BoxReveal>
       <div className="flex flex-col justify-center gap-2 min-[400px]:flex-row">
